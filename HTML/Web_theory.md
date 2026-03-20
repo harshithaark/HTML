@@ -40,7 +40,7 @@ There are 7 components of the browser those are:
 6) UI Backend: Used for drawing basic widgets like combo boxes and windows. It uses the operating system's user interface methods.
 7) Data Storage (Persistence): A persistence layer that stores data locally on the user's computer, such as cookies, bookmarks, history, and cache.
 
-## Hoe does the internet works?
+## How does the internet works?
 ![Internet work Diagram](../Images/image.png)
 
 *Figure: Image explains how the internet works*
