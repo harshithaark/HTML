@@ -19,6 +19,7 @@ HTML was dicovered by Tim Berners-Lee in 1990. The present version of HTML is 5
 Open <html> and close <html> is called as root tags
 
 ## What are the struture of HTML?
+```html
 <!DOCTYPE html>        --------->  Used as the version of HTML
 <html lang="en">
 <head>
@@ -29,6 +30,7 @@ Open <html> and close <html> is called as root tags
 <body>   
 </body>
 </html>
+```
 
 ## What are tags in HTML?
 Anything enclosed with open and close angular braces that is refered as tags in HTML
@@ -36,7 +38,7 @@ Anything enclosed with open and close angular braces that is refered as tags in 
 ## What are the elements in HTML?
 The content between the open and close tags is called as element in HTML.
 
-## What is the difference between <div> and <span>?
+## What is the difference between '<div>' and '<span>'?
 
 | Aspect | <div> (Division) | <span> (Content Span) |
 |---|---|---|
