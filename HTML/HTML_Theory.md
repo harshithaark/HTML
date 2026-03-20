@@ -34,7 +34,7 @@ A server is a computer or a system that provides resources, data and services to
 The HTML is used to give the struture to the webpage.
 The full form is : Hyper Text MarkUp Language
 
-![HTML Diagram](/workspaces/HTML-CSS-JS-and-React/Images/image.png)
+![HTML Diagram](../Images/image.png)
 
 *Figure: Example HTML structure diagram.*
 
