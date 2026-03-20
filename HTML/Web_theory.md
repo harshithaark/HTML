@@ -9,8 +9,8 @@ The single HTML document which can be accessed through the internet is known as 
 ## What is website?
 The collection of multiple webpage is called as website
 
-## Whta is software?
-Set if instructions, data or programs that tell a computer or electronic device how to operate and perform specific tasks
+## What is software?
+Set of instructions, data, or programs that tell a computer or electronic device how to operate and perform specific tasks
 
 ## What are types of software?
 There are 2 types of software:
@@ -18,8 +18,8 @@ There are 2 types of software:
 2) Application software : Software designed to perform specific tasks for the user
 
 ## What is HTTP?
-It is a protocol which is used to send the request and get back the response. Full form is Hyper Text Transfer Protocol
-### HTTPS - s stands fro secured
+It is a protocol used to send requests and receive responses. Full form is Hyper Text Transfer Protocol
+### HTTPS - s stands for secure
 
 ## What is URL?
 The web address of a resource on the internet, such as web page, image or document.
@@ -45,3 +45,26 @@ There are 7 components of the browser those are:
 
 *Figure: Image explains how the internet works*
 
+---
+
+## Navigation Guide
+
+**Complete HTML Documentation:**
+- **[HTML Main Guide](Html.md)** - Complete HTML documentation index
+- **[HTML Basics](Html_Basics.md)** - HTML structure and basic tags
+- **[HTML Attributes](Html_Attributes.md)** - Core HTML attributes
+- **[HTML Content](Html_Content.md)** - Formatting, links, images, lists, tables
+- **[HTML Forms](Forms.md)** - Form elements and input validation
+- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
+- **[HTML Advanced](Html_Advanced.md)** - HTML5 features and accessibility
+
+**Web Technology Topics Covered:**
+- Web concepts (pages, websites, and the internet)
+- Software types (system and application)
+- HTTP/HTTPS protocols
+- URLs and domain names
+- DNS and domain resolution
+- Server-client architecture
+- Browser components and rendering
+- How the internet works
+- Data storage and persistence

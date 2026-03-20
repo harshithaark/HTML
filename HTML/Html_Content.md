@@ -13,12 +13,6 @@ It has 3 states:
 Traget attribute of anchor can have following 2 :
 _blank and _self
 
-## How do you create a hyperlink in HTML?
-Use the `<a>` tag with `href`:
-```html
-<a href="https://example.com">Go to example</a>
-```
-
 ## How do you add an image to a webpage? What happens if the image is not found?
 Use `<img src="..." alt="...">`.
 If the image is not found, the browser shows a broken image icon and the `alt` text.<br>
@@ -100,3 +94,26 @@ Use `<table>`, with `<tr>`, `<th>`, and `<td>`:
 
 ## What is HTML Preformatted Text?
 `<pre>` displays text with preserved whitespace and formatting, like code or poetry.
+
+---
+
+## Navigation Guide
+
+**Complete HTML Documentation:**
+- **[HTML Main Guide](Html.md)** - Complete HTML documentation index
+- **[HTML Basics](Html_Basics.md)** - Structure, tags, elements, div vs span
+- **[HTML Attributes](Html_Attributes.md)** - Core attributes (id, class, title, src, alt)
+- **[HTML Forms](Forms.md)** - Form elements and validation
+- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
+- **[HTML Advanced](Html_Advanced.md)** - HTML5 features and accessibility
+- **[Web Theory](Web_theory.md)** - Web concepts and internet basics
+
+**Topics Covered in This File:**
+- Text formatting tags
+- Anchor tags and hyperlinks
+- Images and alt text
+- Lists (unordered, ordered, definition)
+- Absolute and relative links
+- Tables and table structure
+- Blockquotes
+- Preformatted text

@@ -41,13 +41,27 @@ Web Workers allow running scripts in the background without affecting the page p
 ## What is HTML5 Server-Sent Events?
 Server-Sent Events allow a web page to get updates from a server automatically.
 
-## What is semantic HTML? Give examples.
-* These are the tags which have a meaning for the particular tags.
-* All semantic tags are block level elements.
-* These are the main semantic tags :
-`<article>`,`<aside>`,`details`,`figcaption`,`figure`,`footer`,`header`,`main`,`mark`,`nav`,`section`,`summary`,`time`
-* Main is the main tag for all the elements it wrapped all the tags
-* All tags are wrapped by main tag.
-* Figure : to add an images
-* Inside sematic tags we can write as many child we can
-* Semantic elements are SEO (Search Engine Optimizer)
+---
+
+## Navigation Guide
+
+**Related HTML Topics:**
+- **[HTML Main Guide](Html.md)** - Complete HTML documentation index
+- **[HTML Basics](Html_Basics.md)** - Basic structure and tags
+- **[HTML Attributes](Html_Attributes.md)** - Core HTML attributes
+- **[HTML Content](Html_Content.md)** - Formatting, links, images, lists, tables
+- **[HTML Forms](Forms.md)** - Form elements and validation
+- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
+- **[Web Theory](Web_theory.md)** - Web concepts and browser architecture
+
+**Key Topics on This Page:**
+- HTML/CSS/JavaScript integration
+- Accessibility best practices
+- HTML5 new features and APIs
+- Semantic HTML
+- Canvas drawing
+- Geolocation API
+- Web Storage (localStorage, sessionStorage)
+- Drag and Drop functionality
+- Web Workers for background processing
+- Server-Sent Events for real-time updates

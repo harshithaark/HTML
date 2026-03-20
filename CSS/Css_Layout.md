@@ -1,62 +1,77 @@
 # CSS Layout
 
-## What is the CSS Box Model?
-Every HTML element is a box with:
-- Content: The actual content
-- Padding: Space around content
-- Border: Border around padding
-- Margin: Space outside border
+CSS Layout controls how elements are positioned and arranged on a web page. There are several layout methods available, each suited for different use cases.
 
 ## What is CSS Display?
-`display` property controls layout:
-- `block`: Takes full width, new line
-- `inline`: Flows with text, no new line
+The `display` property controls how an element is displayed in the layout flow.
+
+**Common values:**
+- `block`: Takes full width, starts on new line (e.g., div, p, h1-h6)
+- `inline`: Flows with text, no new line (e.g., span, a, strong)
 - `inline-block`: Inline but can have width/height
-- `none`: Hides the element
-- `flex`: Flexbox layout
-- `grid`: Grid layout
+- `none`: Hides the element completely
+- `flex`: Enables Flexbox layout
+- `grid`: Enables Grid layout
 
 ## What is CSS Position?
-`position` property:
+The `position` property specifies how an element is positioned in the document.
+
+**Position values:**
 - `static`: Default, normal flow
-- `relative`: Relative to normal position
-- `absolute`: Relative to nearest positioned ancestor
-- `fixed`: Relative to viewport
-- `sticky`: Sticky positioning
+- `relative`: Positioned relative to its normal position
+- `absolute`: Positioned relative to nearest positioned ancestor
+- `fixed`: Fixed relative to viewport
+- `sticky`: Toggles between relative and fixed based on scroll
 
 ## What is CSS Float?
-`float` moves elements to left or right, allowing text to wrap around.
+`float` moves an element to the left or right, allowing text and other content to wrap around it. Commonly used for legacy layouts (now replaced by Flexbox/Grid).
 
 ## What is CSS Clear?
-`clear` prevents floating elements from affecting layout.
+`clear` prevents floating elements from affecting an element's layout. Takes values: `left`, `right`, `both`.
 
 ## What is CSS Flexbox?
-Flexbox is a layout model for one-dimensional layouts.
-Key properties:
-- `display: flex`
-- `flex-direction`: row, column
-- `justify-content`: alignment along main axis
-- `align-items`: alignment along cross axis
-- `flex-wrap`: wrapping
+Flexbox is a one-dimensional layout model for arranging items in rows or columns with flexible sizing and alignment.
+
+**See detailed guide:** [CSS Flexbox](css_flexbox.md)
+
+Key concepts:
+- Flexible item sizing
+- Easy alignment and distribution
+- Single direction (row or column)
 
 ## What is CSS Grid?
-Grid is a two-dimensional layout system.
-Key properties:
-- `display: grid`
-- `grid-template-columns`: Column sizes
-- `grid-template-rows`: Row sizes
-- `grid-gap`: Gap between cells
-- `grid-area`: Positioning
+Grid is a two-dimensional layout system for creating complex layouts with rows and columns simultaneously.
+
+**See detailed guide:** [CSS Grid](css_grid.md)
+
+Key concepts:
+- Two-dimensional layout
+- Template-based design
+- Named grid areas
 
 ## What is CSS Z-Index?
-`z-index` controls stacking order of positioned elements. Higher values appear on top.
+`z-index` controls the stacking order of positioned elements. Higher values appear on top of lower values.
+
+Only works on positioned elements (`position: relative|absolute|fixed|sticky`).
 
 ## What is CSS Overflow?
-`overflow` controls what happens when content overflows:
-- `visible`: Default
-- `hidden`: Clips content
-- `scroll`: Adds scrollbars
-- `auto`: Adds scrollbars when needed
+`overflow` specifies what happens when content is too large for its container.
+
+**Values:**
+- `visible`: Content overflows outside (default)
+- `hidden`: Overflowing content is hidden/clipped
+- `scroll`: Scrollbars always shown
+- `auto`: Scrollbars shown only when needed
 
 ## What is CSS Visibility?
-`visibility: hidden` hides element but keeps space, unlike `display: none`.
+`visibility: hidden` hides an element but reserves its space in the layout (unlike `display: none` which removes the space entirely).
+
+---
+
+## Related Topics
+
+- **Display & Layout Basics:** [CSS Display](Css_Layout.md)
+- **Box Model:** [Box Model](box_model.md)
+- **Flexbox Details:** [CSS Flexbox](css_flexbox.md)
+- **Grid Details:** [CSS Grid](css_grid.md)
+- **Responsive Design:** [CSS Media Queries](css_media_queries.md)

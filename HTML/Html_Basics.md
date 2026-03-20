@@ -1,11 +1,11 @@
 # HTML Basics
 
 ## What is HTML?
-The HTML is used to give the struture to the webpage.
-The full form is : Hyper(Reference) Text(Information) MarkUp(predefined) Language(Communication)
+The HTML is used to give the structure to the webpage.
+The full form is: Hyper(Reference) Text(Information) MarkUp(predefined) Language(Communication)
 
-## Who and when did they discover HTML?
-HTML was dicovered by Tim Berners-Lee in 1990. The present version of HTML is 5
+## Who and when was HTML discovered?
+HTML was discovered by Tim Berners-Lee in 1990. The present version is HTML5
 
 ## What is the difference between HTML and XHTML?
 | Feature | HTML | XHTML |
@@ -29,9 +29,9 @@ HTML was dicovered by Tim Berners-Lee in 1990. The present version of HTML is 5
 ## What are root tags?
 Open `<html>` and close `<html>` is called as root tags
 
-## What are the struture of HTML?
+## What is the structure of HTML?
 ```html
-<!DOCTYPE html>        --------->  Used as the version of HTML
+<!DOCTYPE html>        ------->  Used to declare the HTML version
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -125,4 +125,27 @@ Example: heading tags, paragraph
 | Width | Takes up the entire width of its parent container by default. | Only takes up as much width as its content requires. |
 | Purpose | Used to group larger sections of content for layout and structural purposes (e.g., header, footer, or sidebar). | Used to style smaller parts of text or inline elements within a block (e.g., changing the color of a few words). |
 | Content | Can contain both block-level and inline elements. | Can only contain other inline elements (phrasing content). |
-| Default Styling | None by default, but its display behavior affects layout significantly. | None by default.
+| Default Styling | None by default, but its display behavior affects layout significantly. | None by default.|
+
+---
+
+## Navigation Guide
+
+**Complete HTML Documentation:**
+- **[HTML Main Guide](Html.md)** - Complete HTML documentation index and overview
+- **[Web Theory](Web_theory.md)** - Understanding the web, HTTP, browsers, and internet concepts
+-  **[HTML Attributes](Html_Attributes.md)** - core attributes like id, class, title, src, alt
+- **[HTML Content](Html_Content.md)** - Formatting, links, images, lists, tables
+- **[HTML Forms](Forms.md)** - Form elements, input types, and validation
+- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
+- **[HTML Advanced](Html_Advanced.md)** - HTML5 features, accessibility, semantic HTML
+
+**Key Topics Covered in This File:**
+- HTML definition and history
+- HTML vs XHTML differences
+- HTML structure and document setup
+- Root and semantic tags
+- Meta tags and viewport
+- Elements and element types (inline, block, inline-block)
+- Div vs Span differences
+- Comments in HTML

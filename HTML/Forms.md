@@ -166,3 +166,27 @@ Example:
 
 ## What is HTML Meter Element?
 `<meter>` represents a scalar measurement within a known range.
+
+---
+
+## Navigation Guide
+
+**Complete HTML Documentation:**
+- **[HTML Main Guide](Html.md)** - Complete HTML documentation index
+- **[HTML Basics](Html_Basics.md)** - Structure and basic elements
+- **[HTML Attributes](Html_Attributes.md)** - Core attributes (id, class, etc.)
+- **[HTML Content](Html_Content.md)** - Text formatting, links, images, lists
+- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
+- **[HTML Advanced](Html_Advanced.md)** - HTML5 features and accessibility
+- **[Web Theory](Web_theory.md)** - Web concepts and protocols
+
+**Form Topics Covered:**
+- Basic form syntax
+- Input types (text, email, password, date, etc.)
+- Form validation and HTML5 validation
+- Form methods (GET, POST) and actions
+- Form elements and attributes
+- Dropdown lists and radio buttons
+- Labels and accessibility
+- Progress, meter, and output elements
+- Datalist for autocomplete suggestions
