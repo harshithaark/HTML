@@ -38,7 +38,7 @@ Anything enclosed with open and close angular braces that is refered as tags in 
 ## What are the elements in HTML?
 The content between the open and close tags is called as element in HTML.
 
-## What is the difference between '<div>' and '<span>'?
+## What is the difference between ```html <div>``` and ```html<span>```?
 
 | Aspect | <div> (Division) | <span> (Content Span) |
 |---|---|---|
