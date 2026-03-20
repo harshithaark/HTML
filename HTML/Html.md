@@ -8,6 +8,18 @@ The full form is : Hyper(Reference) Text(Information) MarkUp(predefined) Languag
 ## Who and when did they discover HTML?
 HTML was dicovered by Tim Berners-Lee in 1990. The present version of HTML is 5
 
+## What is the difference between HTML and XHTML?
+| Feature | HTML | XHTML |
+|---|---|---|
+| Foundation | Derived from SGML (Standard Generalized Markup Language). | An extension of HTML based on XML. |
+| Syntax | Lenient and error-tolerant; browsers often render even with poor code. | Strict and requires "well-formed" code; invalid code may not render at all. |
+| Closing Tags | Optional for some elements (e.g., `<p>`, `<li>`). | Mandatory for all elements without exception (e.g., `<p>...</p>`, `<br />`). |
+| Case Sensitivity | Case-insensitive for tags and attributes. | Case-sensitive; all tags and attributes must be in lowercase. |
+| Attribute Quotes | Optional for some values (e.g., numeric). | Mandatory for all attribute values. |
+| Nesting | Elements can sometimes overlap. | Elements must be properly nested within their parent elements. |
+| Parsing | Uses a lenient, HTML-specific parser. | Requires a standard, strict XML parser. |
+| Media Type | `text/html` | `application/xhtml+xml` |
+
 ## How to start with coding?
 1) Create a folder with whatever name you want
 2) In the file path name type cmd -> Enter
@@ -16,7 +28,7 @@ HTML was dicovered by Tim Berners-Lee in 1990. The present version of HTML is 5
 #### Note: The extension 'live server' inside vs code should be downloaded
 
 ## What are root tags?
-Open <html> and close <html> is called as root tags
+Open `<html>` and close `<html>` is called as root tags
 
 ## What are the struture of HTML?
 ```html
@@ -31,6 +43,9 @@ Open <html> and close <html> is called as root tags
 </body>
 </html>
 ```
+
+## What is the purpose of the <!DOCTYPE html> declaration?
+Used as the version of HTML
 
 ## What is the use of the `<meta>` tag?
 The `<meta>` tag provides metadata about the HTML document (like charset, viewport, description, author, and keywords). For example:
@@ -83,7 +98,7 @@ Example: heading tags, paragraph
 |Width|	Only takes necessary width|	Takes full available width|	Only takes necessary width|
 |Height/Width CSS	|Cannot be set|	Can be set	|Can be set|
 |Vertical| Margin/Padding	|Ignored|	Respected|	Respected|
-|Examples|	<span>, <a>, <img>|	<div>, <p>, <h1>, <footer>|	<button>, <select>, <input>|
+|Examples|	`<span>`, `<a>`, `<img>`|	`<div>`, `<p>`, `<h1>`, `<footer>`|	`<button>`, `<select>`, `<input>`|
 
 ## What is the difference between `<div>` and `<span>`?
 
@@ -96,8 +111,7 @@ Example: heading tags, paragraph
 | Content | Can contain both block-level and inline elements. | Can only contain other inline elements (phrasing content). |
 | Default Styling | None by default, but its display behavior affects layout significantly. | None by default. |
 
-## What is the purpose of the <!DOCTYPE html> declaration?
-Used as the version of HTML
+
 
 ## What is semantic HTML? Give examples.
 * These are the tags which have a meaning for the particular tags.
@@ -109,17 +123,7 @@ Used as the version of HTML
 * Figure : to add an images
 * Inside sematic tags we can write as many child we can
 
-## What is the difference between HTML and XHTML?
-| Feature | HTML | XHTML |
-|---|---|---|
-| Foundation | Derived from SGML (Standard Generalized Markup Language). | An extension of HTML based on XML. |
-| Syntax | Lenient and error-tolerant; browsers often render even with poor code. | Strict and requires "well-formed" code; invalid code may not render at all. |
-| Closing Tags | Optional for some elements (e.g., `<p>`, `<li>`). | Mandatory for all elements without exception (e.g., `<p>...</p>`, `<br />`). |
-| Case Sensitivity | Case-insensitive for tags and attributes. | Case-sensitive; all tags and attributes must be in lowercase. |
-| Attribute Quotes | Optional for some values (e.g., numeric). | Mandatory for all attribute values. |
-| Nesting | Elements can sometimes overlap. | Elements must be properly nested within their parent elements. |
-| Parsing | Uses a lenient, HTML-specific parser. | Requires a standard, strict XML parser. |
-| Media Type | `text/html` | `application/xhtml+xml` |
+
 
 ## What is the role of attributes in HTML tags?
 provide additional information about elements, modifying their default appearance, behavior, and functionality.
