@@ -23,13 +23,6 @@ There are 5 types of selector:
 3) Group selector(,) - Used to select more than one element
 4) Universal selector(*) - Used to select all elements universally
 5) Element selector (Tagname) - Used to select specific HTML tags
-<!-- - Element: `p`
-- Class: `.classname`
-- ID: `#idname`
-- Universal: `*`
-- Attribute: `[type="text"]`
-- Pseudo-class: `:hover`
-- Pseudo-element: `::before` -->
 
 ## What are combinator selectors?
 1) Descendent selector (space in between):
