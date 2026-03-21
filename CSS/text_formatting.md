@@ -212,4 +212,4 @@ Following are the some text-spacing related properties:
    </body>
    </html>
    ```
-[Word spacing](../Images/text_formatting/word_spacing.png)
+![Word spacing](../Images/text_formatting/word_spacing.png)
