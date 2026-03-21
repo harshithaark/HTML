@@ -103,7 +103,7 @@ Syntax ⇒
 </body>
 </html>
 ```
-![Grid template columns diagram](../Images/)
+![Grid template columns diagram](../Images/grid-colum-style.png)
 
 ### What do the different grid-template-columns values mean?
 - **auto** - Automatically sizes column to fit content

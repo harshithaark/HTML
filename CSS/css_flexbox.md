@@ -56,7 +56,7 @@ Syntax ⇒
   justify-content: flex-start;
 }
 ```
-![Flex justify contetn start diagram](../Images/flex_start.png)
+![Flex justify content start diagram](../Images/flex_start.png)
 
 ### What does justify-content: flex-end do?
 The `flex-end` value aligns items at the end of the container.
