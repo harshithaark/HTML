@@ -242,8 +242,8 @@ Use CSS custom properties (variables) and media queries or class toggling:
 </body>
 </html>
 ```
-[dark_mode image](../Images/css_advance_dark_mode.png)
-[light mode image](../Images/css_advance_light.png)
+![dark_mode image](../Images/css_advance_dark_mode.png)
+![light mode image](../Images/css_advance_light.png)
 **CSS Variables Approach:**
 
 Or using prefers-color-scheme:

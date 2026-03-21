@@ -2,7 +2,7 @@
 
 ## What is CSS Flexbox?
 CSS Flexbox is used to create flexible and responsive layouts without using float and positioning. It is a one-dimensional layout system because it works primarily in one dimension - either rows or columns. Flexbox provides an efficient way to arrange, distribute, and align items within a container.
-[Flex-container](../Images/flex_with_co%20tainer.png)
+![Flex-container](../Images/flex_with_co%20tainer.png)
 
 ## What are the main features of Flexbox?
 1. **High Flexibility** - Easy to adjust layout based on container size
@@ -21,7 +21,7 @@ Flexbox works on two axes:
 
 1. **Main Axis** - Runs from left to right by default. This is the primary axis along which flex items are laid out.
 2. **Cross Axis** - Perpendicular to the main axis, runs from top to bottom by default.
-[Flexbox axes diagram](../Images/flexbox-axes.png)
+![Flexbox axes diagram](../Images/flexbox-axes.png)
 
 
 ---
@@ -56,7 +56,7 @@ Syntax ⇒
   justify-content: flex-start;
 }
 ```
-[Flex justify contetn start diagram](../Images/flex-start.png)
+![Flex justify contetn start diagram](../Images/flex-start.png)
 
 ### What does justify-content: flex-end do?
 The `flex-end` value aligns items at the end of the container.
@@ -68,7 +68,7 @@ Syntax ⇒
   justify-content: flex-end;
 }
 ```
-[Flex end diagram](../Images/flex-end.png)
+![Flex end diagram](../Images/flex-end.png)
 
 ### What does justify-content: center do?
 The `center` value aligns items at the center of the container.
@@ -80,7 +80,7 @@ Syntax ⇒
   justify-content: center;
 }
 ```
-[Flex center diagram](../Images/centre.png)
+![Flex center diagram](../Images/centre.png)
 
 
 ### What does justify-content: space-between do?
@@ -93,7 +93,7 @@ Syntax ⇒
   justify-content: space-between;
 }
 ```
-[Flex space-between diagram](../Images/space-between.png)
+![Flex space-between diagram](../Images/space-between.png)
 
 ### What does justify-content: space-around do?
 The `space-around` value displays items with equal space before, between, and after them.
@@ -105,7 +105,7 @@ Syntax ⇒
   justify-content: space-around;
 }
 ```
-[Flex sapce around diagram](../Images/space-around.png)
+![Flex sapce around diagram](../Images/space-around.png)
 
 ### What does justify-content: space-evenly do?
 The `space-evenly` value displays items with equal space between all items (including edges).
@@ -117,7 +117,7 @@ Syntax ⇒
   justify-content: space-evenly;
 }
 ```
-[Flex space evenly diagram](../Images/space-evenly.png)
+![Flex space evenly diagram](../Images/space-evenly.png)
 
 ## What is align-items in Flexbox?
 The align-items property aligns flex items along the cross axis (vertically by default). It controls how multiple lines of items are aligned.
@@ -139,7 +139,7 @@ Syntax ⇒
   align-items: flex-start;
 }
 ```
-[align items flex start diagram](../Images/flex-startjs.png)
+![align items flex start diagram](../Images/flex-startjs.png)
 
 ### What does align-items: flex-end do?
 The `flex-end` value aligns items at the bottom of the container.
@@ -151,7 +151,7 @@ Syntax ⇒
   align-items: flex-end;
 }
 ```
-[align items flex end](../Images/flex-endjc.png)
+![align items flex end](../Images/flex-endjc.png)
 
 
 ### What does align-items: center do?
@@ -164,7 +164,7 @@ Syntax ⇒
   align-items: center;
 }
 ```
-[align items flex center](../Images/center.png)
+![align items flex center](../Images/center.png)
 
 ### What does align-items: stretch do?
 The `stretch` value stretches items to fill the container height.
@@ -176,7 +176,7 @@ Syntax ⇒
   align-items: stretch;
 }
 ```
-[Align items stretch diagram](../Images/stretch.png)
+![Align items stretch diagram](../Images/stretch.png)
 
 ### What does align-items: baseline do?
 The `baseline` value aligns items so their baselines align.
@@ -188,7 +188,7 @@ Syntax ⇒
   align-items: baseline;
 }
 ```
-[Align items stretch diagram](../Images/baseline.png)
+![Align items stretch diagram](../Images/baseline.png)
 
 ## What is flex-direction in Flexbox?
 The flex-direction property defines the direction in which flex items are laid out. It controls the main axis direction.
@@ -199,7 +199,7 @@ Syntax ⇒
   flex-direction: row|row-reverse|column|column-reverse;
 }
 ```
-[Flex-direction diagram](../Images/flex-direction.png)
+![Flex-direction diagram](../Images/flex-direction.png)
 
 ### What does flex-direction: row do?
 The `row` value (default) displays items left to right in LTR (left-to-right) languages.
@@ -265,7 +265,7 @@ Syntax ⇒
   flex-wrap: nowrap;
 }
 ```
-[Flex no wrap diagram](../Images/no_wrap.png)
+![Flex no wrap diagram](../Images/no_wrap.png)
 
 ### What does flex-wrap: wrap do?
 The `wrap` value allows items to wrap onto multiple lines from top to bottom.
@@ -323,7 +323,7 @@ Example ⇒
 </body>
 </html>
 ```
-[Wrap diagram](../Images/flex-wrap-wrap.png)
+![Wrap diagram](../Images/flex-wrap-wrap.png)
 
 ### What does flex-wrap: wrap-reverse do?
 The `wrap-reverse` value allows items to wrap onto multiple lines from bottom to top.
@@ -335,7 +335,7 @@ Syntax ⇒
   flex-wrap: wrap-reverse;
 }
 ```
-[Wrap reverse diagram](../Images/reverse_wrap.png)
+![Wrap reverse diagram](../Images/reverse_wrap.png)
 
 ## What is flex-flow in Flexbox?
 The flex-flow property is a shorthand for flex-direction and flex-wrap. It allows you to set both properties in one declaration.
@@ -439,7 +439,7 @@ Example ⇒
 </body>
 </html>
 ```
-[Flex order property diagram](../Images/order_property.png)
+![Flex order property diagram](../Images/order_property.png)
 
 ## What is flex-grow in Flexbox?
 The flex-grow property specifies how much a flex item will grow relative to other items when there is extra space available in the container.

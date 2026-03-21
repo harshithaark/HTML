@@ -178,7 +178,7 @@ Example ⇒
 </body>
 </html>
 ```
-[Animation working video](../Videos/animations.mp4)
+![Animation working video](../Videos/animations.mp4)
 
 
 ## What is animation-timing-function?
@@ -260,7 +260,7 @@ Example ⇒
 </body>
 </html>
 ```
-[Animation timing function](../Videos/animation_timing.mp4)
+![Animation timing function](../Videos/animation_timing.mp4)
 
 ## What is animation-delay?
 The `animation-delay` property specifies a delay for the start of an animation. It determines how long to wait before the animation begins. Defined in seconds (s) or milliseconds (ms).
@@ -327,7 +327,7 @@ Example ⇒
 </body>
 </html>
 ```
-[Animation delay video](../Videos/animation_delay.mp4)
+![Animation delay video](../Videos/animation_delay.mp4)
 
 ## What is animation-iteration-count?
 The `animation-iteration-count` property specifies the number of times an animation should be repeated. It can be set to a specific number or to `infinite` to repeat the animation indefinitely.
@@ -401,7 +401,7 @@ Example ⇒
 </body>
 </html>
 ```
-[Animation Iteration count](../Videos/animation_iteration_count.mp4)
+![Animation Iteration count](../Videos/animation_iteration_count.mp4)
 
 ---
 
@@ -451,7 +451,7 @@ Example 1: Simple Color Animation ⇒
 </body>
 </html>
 ```
-[Color animation](../Videos/color_animation.mp4)
+![Color animation](../Videos/color_animation.mp4)
 
 Example 2: Rotating Square ⇒
 ```html
@@ -487,7 +487,7 @@ Example 2: Rotating Square ⇒
 </body>
 </html>
 ```
-[Rotatinf square](../Videos/rotating_square.mp4)
+![Rotatinf square](../Videos/rotating_square.mp4)
 
 Example 3: Bouncing Ball Animation ⇒
 ```html
@@ -524,7 +524,7 @@ Example 3: Bouncing Ball Animation ⇒
 </body>
 </html>
 ```
-[Bouncing ball animation](../Videos/bouncing_ball.mp4)
+![Bouncing ball animation](../Videos/bouncing_ball.mp4)
 
 Example 4: Multi-property Animation ⇒
 ```html
@@ -580,7 +580,7 @@ Example 4: Multi-property Animation ⇒
 </body>
 </html>
 ```
-[Multi-property-animation](../Videos/multi_popety.mp4)
+![Multi-property-animation](../Videos/multi_popety.mp4)
 
 ---
 
