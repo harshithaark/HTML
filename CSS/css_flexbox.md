@@ -56,7 +56,7 @@ Syntax ⇒
   justify-content: flex-start;
 }
 ```
-![Flex justify contetn start diagram](../Images/flex-start.png)
+![Flex justify contetn start diagram](../Images/flex_start.png)
 
 ### What does justify-content: flex-end do?
 The `flex-end` value aligns items at the end of the container.
@@ -68,7 +68,7 @@ Syntax ⇒
   justify-content: flex-end;
 }
 ```
-![Flex end diagram](../Images/flex-end.png)
+![Flex end diagram](../Images/flex_end.png)
 
 ### What does justify-content: center do?
 The `center` value aligns items at the center of the container.
