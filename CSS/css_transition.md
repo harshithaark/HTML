@@ -102,8 +102,7 @@ Example ⇒
 </body>
 </html>
 ```
-![Transition-duartion video](../Videos/transiotion/duration
-)
+![Transition-duartion video](../Videos/transiotion/duration.gif)
 
 ---
 
@@ -226,8 +225,7 @@ Example ⇒
 </body>
 </html>
 ```
-![Timing functions](../Videos/transiotion/ease
-)
+![Timing functions](../Videos/transiotion/ease.gif)
 
 ---
 
@@ -293,8 +291,7 @@ Example ⇒
 </body>
 </html>
 ```
-[![Transition delay video]](../Videos/transiotion/time_delay
-)
+[![Transition delay video]](../Videos/transiotion/time_delay.gif)
 
 ---
 
@@ -404,8 +401,7 @@ Example 2: Multiple Property Transitions ⇒
 </body>
 </html>
 ```
-![Multiple propert transitions](../Videos/transiotion/final_multiple
-)
+![Multiple propert transitions](../Videos/transiotion/final_multiple.gif)
 
 Example 3: Staggered Transitions with Delay ⇒
 ```html
