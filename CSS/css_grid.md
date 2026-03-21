@@ -82,28 +82,28 @@ Syntax ⇒
 <style>
 .container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  gap: 10px;
-}
-.item {
-  background: lightblue;
-  padding: 20px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-
-<div class="container">
-  <div class="item">1</div>
-  <div class="item">2</div>
-  <div class="item">3</div>
-</div>
-
-</body>
-</html>
+    grid-template-columns: 1fr 2fr 1fr;
+      gap: 10px;
+      }
+      .item {
+        background: lightblue;
+          padding: 20px;
+            text-align: center;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <div class="container">
+              <div class="item">1</div>
+                <div class="item">2</div>
+                  <div class="item">3</div>
+                  </div>
+                  
+                  </body>
+                  </html>```
 ```
-![Grid template columns diagram](../Images/grid-colum-style.png)
+![Grid template columns diagram](../Images/grid_column.png)
 
 ### What do the different grid-template-columns values mean?
 - **auto** - Automatically sizes column to fit content
