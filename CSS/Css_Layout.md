@@ -23,6 +23,28 @@ The `position` property specifies how an element is positioned in the document.
 - `fixed`: Fixed relative to viewport
 - `sticky`: Toggles between relative and fixed based on scroll
 
+## How can you create a sticky header or sidebar?
+Use `position: sticky;` with a `top` (for header) or `left`/`right` (for sidebar) value.
+
+Example for sticky header:
+```css
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 100;
+}
+```
+
+Example for sticky sidebar:
+```css
+.sidebar {
+  position: sticky;
+  top: 20px; /* Offset from top */
+  height: fit-content;
+}
+```
+
 ## What is CSS Float?
 `float` moves an element to the left or right, allowing text and other content to wrap around it. Commonly used for legacy layouts (now replaced by Flexbox/Grid).
 
@@ -53,6 +75,19 @@ Key concepts:
 `z-index` controls the stacking order of positioned elements. Higher values appear on top of lower values.
 
 Only works on positioned elements (`position: relative|absolute|fixed|sticky`).
+
+## What is the difference between z-index and stacking context?
+- **z-index**: A CSS property that sets the stack order of positioned elements
+- **Stacking context**: A 3D conceptual model where elements are stacked along an imaginary z-axis
+
+Every stacking context has its own z-index layer. Elements in different stacking contexts can have the same z-index but still stack differently based on their context hierarchy.
+
+Stacking contexts are created by:
+- Root element (html)
+- Positioned elements with z-index
+- Flex/grid items with z-index
+- Opacity < 1
+- Transform, filter, etc.
 
 ## What is CSS Overflow?
 `overflow` specifies what happens when content is too large for its container.

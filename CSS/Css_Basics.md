@@ -255,6 +255,22 @@ Example for :nth-child:
 Output: ![Psudeo class selector Diagram](../Images/psudeo_class_nt.png)
 Alternating background colors for list items.
 
+## What is the difference between nth-child() and nth-of-type()?
+- `:nth-child(n)` selects the nth child of its parent, regardless of type.
+- `:nth-of-type(n)` selects the nth child of its type among siblings of the same type.
+
+Example:
+```html
+<div>
+  <p>First paragraph</p>
+  <span>Span</span>
+  <p>Second paragraph</p>
+  <p>Third paragraph</p>
+</div>
+```
+- `p:nth-child(2)` selects nothing (the 2nd child is a span)
+- `p:nth-of-type(2)` selects the second `<p>` element
+
 ## What are pseudo-element selectors?
 Pseudo-element selectors style specific parts of elements.
 Common pseudo-elements:
@@ -389,6 +405,23 @@ Some properties are inherited from parent to child elements, like `color`, `font
 ## What are CSS Units?
 - Absolute: px(static measure we can give parent tagecant give), cm, mm, in, pt, pc
 - Relative: %(Height wont be considered), em(element size, basic takes the parents size), rem(root element size(16px) default body), vw, vh(vh and vw will change)
+
+## What happens when you nest em units multiple levels deep?
+When using `em` units, the size is relative to the parent element's font-size. If you nest elements with `em` font-sizes, each level multiplies the size.
+
+Example:
+```css
+.parent {
+  font-size: 20px;
+}
+.child {
+  font-size: 1.5em; /* 30px */
+}
+.grandchild {
+  font-size: 1.2em; /* 36px (1.2 * 30px) */
+}
+```
+This can lead to compounding sizes. Use `rem` for consistent sizing based on the root element.
 
 ## What is CSS Comments?
 Comments are written as `/* comment */` and are ignored by the browser.

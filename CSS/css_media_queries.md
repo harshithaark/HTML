@@ -259,6 +259,9 @@ Example ⇒
 </body>
 </html>
 ```
+[Laptop screen pic](../Images/Media_queries/big_screen.png)
+[Tablet screen pic](../Images/Media_queries/tab_screen.png)
+[MObile screen pic](../Images/Media_queries/mobile_screen.png)
 
 ### What is portrait orientation?
 Portrait orientation means the device is taller than it is wide. The viewport height is greater than the viewport width.
@@ -282,6 +285,7 @@ Example ⇒
   }
 }
 ```
+[Same for all the screen](../Images/Media_queries/protrait.png)
 
 ---
 
@@ -478,6 +482,8 @@ Syntax ⇒
 </body>
 </html>
 ```
+[Final project media big screen](../Images/Media_queries/final_bigs.png)
+[Final project media small screen](../Images/Media_queries/final_mobile.png)
 
 ---
 

@@ -8,6 +8,7 @@ CSS Grid has two main core concepts:
 
 1. **Grid Container** - The parent element that holds the grid system
 2. **Grid Items** - The child elements inside the grid container
+[Grid with containers](../Images/grid_container.png)
 
 ## What is a Grid Container?
 An HTML element becomes a grid container when you set the `display: grid;` property on it. All direct children of the grid container become grid items.
@@ -73,6 +74,36 @@ Syntax ⇒
   grid-template-columns: repeat(3, 100px);
 }
 ```
+### Example
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+}
+.item {
+  background: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+
+</body>
+</html>
+```
+[Grid template columns diagram](../Images/)
 
 ### What do the different grid-template-columns values mean?
 - **auto** - Automatically sizes column to fit content
@@ -98,6 +129,34 @@ Syntax ⇒
   grid-template-rows: repeat(3, 100px);
 }
 ```
+### Example 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-rows: 100px 150px;
+  gap: 10px;
+}
+.item {
+  background: lightcoral;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item">Row 1</div>
+  <div class="item">Row 2</div>
+</div>
+
+</body>
+</html>
+```
+[Grid template rows diagram](../Images/grid_temp_row.png)
 
 ### What is the repeat() function in Grid?
 The `repeat()` function creates repetitive columns or rows. It takes two parameters: the number of repetitions and the size.
@@ -109,6 +168,35 @@ Example ⇒
   grid-template-rows: repeat(2, 150px);    /* 2 rows, each 150px */
 }
 ```
+### Example 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+}
+.item {
+  background: lightgreen;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+
+</body>
+</html>
+```
+[Grid template repeat diagram](../Images/grid_repeat.png)
 
 ## What is justify-content in Grid?
 The `justify-content` property aligns the entire grid horizontally within the container (when the grid is smaller than the container width).
@@ -119,6 +207,35 @@ Syntax ⇒
   justify-content: start|center|end|space-evenly|space-around|space-between;
 }
 ```
+### Example
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  justify-content: center;
+  gap: 10px;
+}
+.item {
+  background: orange;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+</div>
+
+</body>
+</html>
+```
+[JUstify-content diagram](../Images/jc-horizontally.png)
 
 ### What do justify-content values do?
 - **start** - Aligns grid to the left
@@ -137,6 +254,36 @@ Syntax ⇒
   align-content: start|center|end|space-evenly|space-around|space-between;
 }
 ```
+### Example 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  align-content: center;
+  height: 300px;
+  gap: 10px;
+}
+.item {
+  background: violet;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+</div>
+
+</body>
+</html>
+```
+[Align content diagram](../Images/align-content-row.png)
 
 ### What do align-content values do?
 - **start** - Aligns grid to the top
@@ -209,6 +356,7 @@ Example ⇒
 </body>
 </html>
 ```
+[Grid colums property](../Images/grid-colum-style.png)
 
 ## What is the grid-row property?
 The `grid-row` property defines on which row(s) to place a grid item. You specify where the item starts and where it ends. This merges rows in the vertical direction.
@@ -274,6 +422,7 @@ Example ⇒
 </body>
 </html>
 ```
+[Grid row style diagram](../Images/grid-row-style.png)
 
 ## What is the grid-area property?
 The `grid-area` property can be used to assign names to grid items. This makes it easier to place and organize items using named grid areas.
@@ -332,6 +481,7 @@ Example ⇒
 </body>
 </html>
 ```
+[Grid area property diagram](../Images/grid-area.png)
 
 ---
 
@@ -399,5 +549,6 @@ Here's a complete example showing how to use Grid properties together:
 </body>
 </html>
 ```
+[Final view of grid](../Images/grid_final.png)
 
 This creates a layout with a header spanning all columns, a sidebar on the left spanning multiple rows, and main content on the right.

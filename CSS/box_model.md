@@ -17,6 +17,18 @@ According to the box model concept, every element on a page is a rectangular box
 4) margin-left/right - 50px (It will give the space in the right and left 50px)
 5) margin-auto
 
+## How do you center a div using margin and width?
+To center a block element horizontally, set a fixed width and use `margin: 0 auto;`
+
+Example:
+```css
+.center-div {
+  width: 300px;
+  margin: 0 auto;
+}
+```
+This centers the div horizontally within its container.
+
 ## What is the shorthand property for margin?
 1) margin:10px (4 side)
 2) margin: 10px(top and bottom) 20px(left and right)

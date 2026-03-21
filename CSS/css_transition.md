@@ -13,7 +13,7 @@ CSS provides four main transition properties:
 
 ---
 
-# transition-property
+# Transition-property
 
 ## What is transition-property?
 The `transition-property` property allows you to select which CSS properties you want to animate during a transition. You can animate specific properties or all properties that change.
@@ -102,10 +102,11 @@ Example ⇒
 </body>
 </html>
 ```
+[Transition-duartion video](../Videos/transiotion/duration.mp4)
 
 ---
 
-# transition-timing-function
+# Transition-timing-function
 
 ## What is transition-timing-function?
 The `transition-timing-function` property specifies the speed curve of the transition effect. It determines how CSS properties change values over time, controlling the acceleration and deceleration of the transition.
@@ -224,10 +225,11 @@ Example ⇒
 </body>
 </html>
 ```
+[Timing functions](../Videos/transiotion/ease.mp4)
 
 ---
 
-# transition-delay
+# Transition-delay
 
 ## What is transition-delay?
 The `transition-delay` property specifies a delay before the transition effect begins. It defines a waiting period before the animation starts.
@@ -289,10 +291,11 @@ Example ⇒
 </body>
 </html>
 ```
+[Transition delay video](../Videos/transiotion/time_delay.mp4)
 
 ---
 
-# transition Shorthand Property
+# Transition Shorthand Property
 
 ## What is the transition shorthand property?
 The `transition` shorthand property allows you to set all four transition properties in a single declaration: `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`.
@@ -367,6 +370,7 @@ Example 1: Simple Color Transition ⇒
 </body>
 </html>
 ```
+[simple color transition](../Videos/transiotion/final_simpl.mp4)
 
 Example 2: Multiple Property Transitions ⇒
 ```html
@@ -397,6 +401,7 @@ Example 2: Multiple Property Transitions ⇒
 </body>
 </html>
 ```
+[Multiple propert transitions](../Videos/transiotion/final_multiple.mp4)
 
 Example 3: Staggered Transitions with Delay ⇒
 ```html
@@ -445,6 +450,7 @@ Example 3: Staggered Transitions with Delay ⇒
 </body>
 </html>
 ```
+[Staggered transitons with delay](../Videos/transiotion/finla_staggered.mp4)
 
 ---
 

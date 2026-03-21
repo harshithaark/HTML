@@ -68,6 +68,7 @@ Example ⇒
 </body>
 </html>
 ```
+[TranslateX diagram](../Images/Tranformation/tarnslatex.png)
 
 ### What is translateY()?
 `translateY()` specifies translation along the Y-axis only (vertical movement).
@@ -76,6 +77,7 @@ Syntax ⇒
 ```css
 transform: translateY(50px);
 ```
+[TranslateY diagram](../Images/Tranformation/translatey.png)
 
 ### What is translate() with both X and Y?
 `translate()` moves an element both horizontally and vertically.
@@ -120,6 +122,7 @@ Example ⇒
 </body>
 </html>
 ```
+[Translate diagram](../Images/Tranformation/tanslatexy.png)
 
 ---
 
@@ -168,6 +171,7 @@ Example ⇒
 </body>
 </html>
 ```
+[Rotate diagram](../Images/Tranformation/rotate.png)
 
 ### What is rotateX()?
 `rotateX()` rotates an element along the X-axis (horizontal axis) by the specified angle. Creates a 3D rotation effect.
@@ -176,6 +180,39 @@ Syntax ⇒
 ```css
 transform: rotateX(45deg);
 ```
+## Example
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  perspective: 500px; /* IMPORTANT */
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  margin: 50px;
+}
+
+.box-rotate {
+  transform: rotateX(25deg);
+}
+</style>
+</head>
+<body>
+
+<div class="box box-rotate">Rotate 25°</div>
+
+</body>
+</html>
+```
+[RotateX diagram](../Images/Tranformation/totatex.png)
 
 ### What is rotateY()?
 `rotateY()` rotates an element along the Y-axis (vertical axis) by the specified angle. Creates a 3D flip effect.
@@ -184,6 +221,7 @@ Syntax ⇒
 ```css
 transform: rotateY(45deg);
 ```
+[RotateY diagram](../Images/Tranformation/rotatey.png)
 
 ### What is rotateZ()?
 `rotateZ()` rotates an element along the Z-axis (depth axis). This is similar to the basic `rotate()` method.
@@ -192,6 +230,7 @@ Syntax ⇒
 ```css
 transform: rotateZ(45deg);
 ```
+[RotateZ diagram](../Images/Tranformation/rotatez.png)
 
 ---
 
@@ -250,6 +289,7 @@ Example ⇒
 </body>
 </html>
 ```
+[Scale diagram](../Images/Tranformation/scale.png)
 
 ### What is scaleX()?
 `scaleX()` increases or decreases the width of an element only.
@@ -265,6 +305,7 @@ Example ⇒
   transform: scaleX(2);  /* Doubles the width */
 }
 ```
+[ScaleX diagram](../Images/Tranformation/scalex.png)
 
 ### What is scaleY()?
 `scaleY()` increases or decreases the height of an element only.
@@ -280,6 +321,7 @@ Example ⇒
   transform: scaleY(0.5);  /* Halves the height */
 }
 ```
+[Scale diagram](../Images/Tranformation/scaley.png)
 
 ---
 
@@ -358,6 +400,7 @@ Syntax ⇒
 ```css
 transform: skewY(30deg);
 ```
+[All possible skew diagram](../Images/Tranformation/skew_All.png)
 
 ---
 
@@ -401,5 +444,6 @@ Example ⇒
 </body>
 </html>
 ```
+[Final project with all tranformations applied](../Images/Tranformation/final.png)
 
 This transforms the element by translating it, rotating it, and scaling it all at once!

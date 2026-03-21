@@ -41,6 +41,7 @@ In its simplest use, you only specify the horizontal shadow and the vertical sha
 </body>
 </html>
 ```
+[Text shadow](../Images/text_formatting/text_shadow.png)
 
 ## What is text alignment in CSS?
 
@@ -135,6 +136,7 @@ Following are the some text-spacing related properties:
    </body>
    </html>
    ```
+[Text indent](../Images/text_formatting/indent.png)
 
 2. **letter-spacing** ⇒
    The letter-spacing property is used to specify the space between the characters in a text.
@@ -158,6 +160,7 @@ Following are the some text-spacing related properties:
    </body>
    </html>
    ```
+[Letter spacing](../Images/text_formatting/spacing.png)
 
 3. **line-height** ⇒
    The line-height property is used to specify the space between two lines.
@@ -183,6 +186,7 @@ Following are the some text-spacing related properties:
    </body>
    </html>
    ```
+[Line height](../Images/text_formatting/line_height.png)
 
 4. **word-spacing** ⇒
    The word-spacing property is used to specify the space between the words in a text.
@@ -208,3 +212,4 @@ Following are the some text-spacing related properties:
    </body>
    </html>
    ```
+[Word spacing](../Images/text_formatting/word_spacing.png)
