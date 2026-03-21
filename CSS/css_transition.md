@@ -291,7 +291,7 @@ Example ⇒
 </body>
 </html>
 ```
-[![Transition delay video]](../Videos/transiotion/time_delay.gif)
+![Transition delay video](../Videos/transiotion/time_delay.gif)
 
 ---
 
