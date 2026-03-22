@@ -47,24 +47,8 @@ There are 7 components of the browser those are:
 
 ---
 
-## Navigation Guide
+## Navigation
 
-**Complete HTML Documentation:**
-- **[HTML Main Guide](Html.md)** - Complete HTML documentation index
-- **[HTML Basics](Html_Basics.md)** - HTML structure and basic tags
-- **[HTML Attributes](Html_Attributes.md)** - Core HTML attributes
-- **[HTML Content](Html_Content.md)** - Formatting, links, images, lists, tables
-- **[HTML Forms](Forms.md)** - Form elements and input validation
-- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
-- **[HTML Advanced](Html_Advanced.md)** - HTML5 features and accessibility
-
-**Web Technology Topics Covered:**
-- Web concepts (pages, websites, and the internet)
-- Software types (system and application)
-- HTTP/HTTPS protocols
-- URLs and domain names
-- DNS and domain resolution
-- Server-client architecture
-- Browser components and rendering
-- How the internet works
-- Data storage and persistence
+- [Index](../README.md)
+- [Previous: HTML Basics](Html_Basics.md)
+- [Next: HTML Attributes](Html_Attributes.md)

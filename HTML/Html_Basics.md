@@ -129,23 +129,8 @@ Example: heading tags, paragraph
 
 ---
 
-## Navigation Guide
+## Navigation
 
-**Complete HTML Documentation:**
-- **[HTML Main Guide](Html.md)** - Complete HTML documentation index and overview
-- **[Web Theory](Web_theory.md)** - Understanding the web, HTTP, browsers, and internet concepts
--  **[HTML Attributes](Html_Attributes.md)** - core attributes like id, class, title, src, alt
-- **[HTML Content](Html_Content.md)** - Formatting, links, images, lists, tables
-- **[HTML Forms](Forms.md)** - Form elements, input types, and validation
-- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
-- **[HTML Advanced](Html_Advanced.md)** - HTML5 features, accessibility, semantic HTML
-
-**Key Topics Covered in This File:**
-- HTML definition and history
-- HTML vs XHTML differences
-- HTML structure and document setup
-- Root and semantic tags
-- Meta tags and viewport
-- Elements and element types (inline, block, inline-block)
-- Div vs Span differences
-- Comments in HTML
+- [Index](../README.md)
+- [Previous: HTML Introduction](Html.md)
+- [Next: Web Theory](Web_theory.md)

@@ -25,21 +25,8 @@ provide additional information about elements, modifying their default appearanc
 
 ---
 
-## Navigation Guide
+## Navigation
 
-**Complete HTML Documentation:**
-- **[HTML Main Guide](Html.md)** - Complete HTML documentation index
-- **[HTML Basics](Html_Basics.md)** - Structure and basic elements
-- **[HTML Content](Html_Content.md)** - Formatting, links, images, lists, tables
-- **[HTML Forms](Forms.md)** - Form elements and input types
-- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
-- **[HTML Advanced](Html_Advanced.md)** - HTML5 features and accessibility
-- **[Web Theory](Web_theory.md)** - Web concepts and protocols
-
-**Core Attributes Covered:**
-- `id` - Unique element identification
-- `class` - Styling and grouping elements
-- `title` - Tooltips
-- `src` - Source paths for images/media
-- `alt` - Alternative text for images
-- `placeholder` - Input field hints
+- [Index](../README.md)
+- [Previous: Web Theory](Web_theory.md)
+- [Next: HTML Content](Html_Content.md)

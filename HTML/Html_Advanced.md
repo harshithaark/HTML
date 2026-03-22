@@ -43,25 +43,7 @@ Server-Sent Events allow a web page to get updates from a server automatically.
 
 ---
 
-## Navigation Guide
+## Navigation
 
-**Related HTML Topics:**
-- **[HTML Main Guide](Html.md)** - Complete HTML documentation index
-- **[HTML Basics](Html_Basics.md)** - Basic structure and tags
-- **[HTML Attributes](Html_Attributes.md)** - Core HTML attributes
-- **[HTML Content](Html_Content.md)** - Formatting, links, images, lists, tables
-- **[HTML Forms](Forms.md)** - Form elements and validation
-- **[HTML Multimedia](Multimedia.md)** - Video and audio embedding
-- **[Web Theory](Web_theory.md)** - Web concepts and browser architecture
-
-**Key Topics on This Page:**
-- HTML/CSS/JavaScript integration
-- Accessibility best practices
-- HTML5 new features and APIs
-- Semantic HTML
-- Canvas drawing
-- Geolocation API
-- Web Storage (localStorage, sessionStorage)
-- Drag and Drop functionality
-- Web Workers for background processing
-- Server-Sent Events for real-time updates
+- [Index](../README.md)
+- [Previous: HTML Multimedia](Multimedia.md)

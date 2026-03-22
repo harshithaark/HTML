@@ -53,22 +53,8 @@ Example: `<iframe src="page.html" width="300" height="200"></iframe>`
 
 ---
 
-## Navigation Guide
+## Navigation
 
-**Complete HTML Documentation:**
-- **[HTML Main Guide](Html.md)** - Complete HTML documentation index
-- **[HTML Basics](Html_Basics.md)** - Structure and basic elements
-- **[HTML Attributes](Html_Attributes.md)** - Core attributes
-- **[HTML Content](Html_Content.md)** - Text, links, images, lists, tables
-- **[HTML Forms](Forms.md)** - Form elements and validation
-- **[HTML Advanced](Html_Advanced.md)** - HTML5 features and accessibility
-- **[Web Theory](Web_theory.md)** - Web concepts and internet basics
-
-**Multimedia Topics Covered:**
-- Video and video attributes
-- Audio and audio attributes
-- Embed element for plugins
-- Object element for embedded content
-- Iframe for embedding pages
-- Source elements for multiple formats
-- Browser compatibility considerations
+- [Index](../README.md)
+- [Previous: HTML Forms](Forms.md)
+- [Next: HTML Advanced](Html_Advanced.md)
